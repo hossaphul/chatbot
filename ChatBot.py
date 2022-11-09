@@ -20,7 +20,7 @@ trainer = ChatterBotCorpusTrainer(chatBot)
 # you can train with different language
 # or with your custom .yam file
 trainer.train("chatterbot.corpus.english")
-trainer.train("/content/Chatbot-for-Biginners/custom.yml")
+
 # Greeting from chat bot
 print("Hi, I am ChatBot")
 
